@@ -9,7 +9,7 @@ public class MyDate {
 				date1.getMonth() == date2.getMonth() && 
 				date1.getDate() == date2.getDate()) {
 			return 0;
-		} else if (date1.getYear() < date1.getYear()
+		} else if (date1.getYear() < date2.getYear()
 				|| (date1.getYear() == date2.getYear() && date1.getMonth() < date2.getMonth())
 				|| (date1.getYear() == date2.getYear() && date1.getMonth() == date2.getMonth()
 						&& date1.getDate() < date2.getDate())) {
